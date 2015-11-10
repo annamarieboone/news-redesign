@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+	font-family: Oswald;
+}
+
+h2 {
+  font-weight: 700;
+  color: black;
+  font-size: 45px;
+}
+
+h4 {
+  font-weight: 700;
+  color: black;
+  font-size: 25px;
+}
+
+.secondary {
+  font-weight: 400;
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: black;
+}
+
+.tag {
+  font-size: 18px;
+  font-weight: 700;
+  color: #CC0000;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 15px;
+}
+
+.red {
+  position:fixed;
+  background-color: #CC0000;
+  top:0;
+  right:0;
+  left:0;
+  z-index:99;
+}
+
+.header {
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+  background-color: #CC0000;
+  padding: 25px;
+  display: inline;
+}
+
+.logo {
+  width: 2%;
+  height: auto;
+  padding: 25px 0px;
+  padding-right: 20px;
+}
+
+.first {
+  padding-left: 10em;
+}
+
+.filler {
+  height: 160px;
+}
+
+.menu {
+  font-size: 15.5px;
+  text-decoration: none;
+  color: #CC0000;
+  display: inline-block;
+  border-bottom: 2px solid #CC0000;
+  text-transform: uppercase;
+  text-align: justify;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.inverse {
+  color: white;
+  background-color: #CC0000;
+}
+
+a:hover {
+  color: white;
+  background-color: #CC0000;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+.briefing {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.quarter {
+  height: 30px;
+}
+
+.small {
+  height: 10px;
+}
+
+.date {
+  background-color: yellow;
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.todayspaper {
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
+.secondaryp {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.readmore {
+  color: #CC0000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+
+}
+
+.ad {
+  width: 100%;
+  height: 520px;
+  background-color: gray;
+}
+
+.short {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 20px;
+  background-color: gray;
+}
+
+.black {
+  color: black;
+}
+
+
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (max-width: 600px) {
+.header {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  background-color: #CC0000;
+  display: inline;
+}
+
+.logo {
+  display: none;
+}
+
+.menu {
+  font-size: 13px;
+  text-decoration: none;
+  color: #CC0000;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 2px solid #CC0000;
+  border-bottom-width: 100%;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+
+
+
+	}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+}
+
+
