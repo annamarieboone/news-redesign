@@ -45,6 +45,15 @@ a {
   z-index:99;
 }
 
+.red-footer {
+  position: fixed;
+  background-color: #CC0000;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index:99;
+}
+
 .header {
 	width: 50%;
 	height: auto;
@@ -156,6 +165,14 @@ img {
   color: black;
 }
 
+.footer {
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
 
 
 
@@ -187,9 +204,18 @@ img {
   text-align: justify;
 }
 
+.inverse {
+  color: white;
+  background-color: #CC0000;
+}
 
+.show-desktop {
+  display: none;
+}
 
-
+.ad {
+  height: 100px;
+}
 	}
 
 /* Larger than phablet */
