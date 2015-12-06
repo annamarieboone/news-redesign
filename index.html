@@ -1,166 +1,489 @@
-<!DOCtype html>
+<!-- If you want your article to get debugged, make sure to leave comments and give understandable names to your divs. The easier your code is to read, the easier it will be to work with. -->
 
+<!DOCTYPE html>
 <html lang="en">
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<head>
+	<!-- The below 3 meta tags must come first in the head; any other head content must come after these tags -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
 
-    <title>Indiana Daily Student</title>
-    <meta name="description" content="Design Work by Anna Boone">
-    <meta name="author" content="Anna Boone">
-    <link rel="stylesheet" type=text/css href="css/skeleton.css"
-    <link rel="stylesheet" type=text/css href="css/reset.css">
-    <link rel="stylesheet" type=text/css href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>  
-    <link rel="icon" type="image/png"
-     href="img/idsicon.png" /> 
+	<title>The unsettled</title>
+	<link rel="SHORTCUT ICON"
+       href="http://duvq7ua50whdw.cloudfront.net/20151014QyeoL4yWsx/dist/img/favicon.ico">
+
+	<!-- below is the link to the image facebook will pull as the preview to your article -->
+	<meta property="og:image"
+	content="img/header.lg.jpg"/>
+
+	<!-- STYLES make sure ids.css is the last style loaded, unless a custom library you're using requires its style loaded last. Do not make any alterations to it without talking to me first. -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+	<link href='//cdn.knightlab.com/libs/soundcite/latest/css/player.css' rel='stylesheet' type='text/css'>
+	<script type='text/javascript' src='//cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js'></script>
+	
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css">
+	<link rel="stylesheet" href="css/animate.css">
+        
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/ids.css"> 
+
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,700|Lora:400,700|Lato:400,300,100,700' rel='stylesheet' type='text/css'>
+
+
 </head>
+<body>
+ <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NBJX8F"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NBJX8F');</script>
+  <!-- End Google Tag Manager --> 
 
-<body>     
-  <div class="container">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+     		</button>
+     		<a class="navbar-brand" href="http://www.idsnews.com/" target="_blank" style="color:white">IDS</a>
+     		<a class="navbar-headline-mobile" href="#" target="_blank" style="color:white">The unsettled</a>
 
-    <div class="row">    
-      <div class="twelve columns red">
-        <img src="img/idslogo.png" class="header"/>
-        <a href="http://www.twitter.com/idsnews"><img src="img/twit.png" class="logo first"/></a>
-        <a href="http://www.instagram.com/idsnews"><img src="img/insta.png" class="logo"/></a>   
-        <a href="http://www.facebook.com/idsnews"><img src="img/fb.png" class="logo"/></a>       
-      </div>
-    </div>
+		</div> <!-- end of navbar header -->
 
-  <div class="row filler"></div>
+		<!-- Collect the nav links, forms and otehr content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><span class="nav-headline">The unsettled</span></li>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://twitter.com/idsnews" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+				<li><a href="https://www.facebook.com/idsnews" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+			</ul>
+		</div> <!-- end of navbar-collapse -->
+	</div> <!-- end of continer-fluid -->
+  </nav>
 
-  <div class="row">
-    <div class="twelve columns">
-      <div class="ad short">
-      </div>
-    </div>
-  </div>
-
-  <div class="row filler quarter"></div>
-
-  <div class="row briefing">
-    <div class="twelve columns text">
-      <span class="date">Tuesday, Nov. 10, 2015</span> What you need to know: <a href="#">IU defeats Wisconsin 1-0 in Big Ten quarterfinals,</a> <a href="#">Friends, mother of Triceten Bickford say attack was uncharacteristic,</a> <a href="#">Symposium to explore 'The Birth of a Nation.'</a>
-    <div> 
-  </div>
-
-  <div class="row filler quarter"></div>
-
-  <div class="row">
-  <div class="two columns text show-desktop">
-    <a href="#" class="menu">Campus</a>
-    <a href="#" class="menu">Sports</a>
-    <a href="#" class="menu">Region</a>
-    <a href="#" class="menu">Arts</a>
-    <a href="#" class="menu">Opinion</a>
-    <a href="#" class="menu">Weekend</a>
-    <a href="#" class="menu">Specials</a>
-    <a href="#" class="menu">Multimedia</a>
-    <a href="#" class="menu">Directories</a>
-    <a href="#" class="menu">Classifieds</a>
-    <a href="#" class="menu inverse">Search</a>
-
-  </div>
-  <div class="eight columns">
-    <h2><span class="tag">Campus</span>IU to become more bicycle friendly</h2>
-      <img src="img/campus1.jpg"/>
-    </div>
-  <div class="two columns show-desktop">
-  <a href="http://www.issuu.com/idsnews"><img src="img/p1.jpg" class="todayspaper"/></a>
-    <h2><span class="tag">Today's paper</span></h2>
-    <a href="http://www.issuu.com/idsnews"><img src="img/inside.png" class="todayspaper"/></a>
-    <h2><span class="tag">Inside magazine</span></h2>
-    </div>
-  </div>
-    
-  <div class="row filler quarter small"></div>
-
-  <div class="row">
-    <div class="four columns show-desktop">
-    <span class="tag">Sports</span>
-    <img src="img/sports1.jpg"/>
-    <h4>IU defeats Bellarmine 73-62</h4>
-    </div>
-    <div class="four columns">
-      <span class="tag">Region</span>
-      <img src="img/region1.jpg"/>
-    <h4>Salvation Army kicks off holiday fundraising</h4>
-    </div>
-    <div class="four columns">
-      <span class="tag">Arts</span>
-    <img src="img/arts1.jpg"/>
-    <h4>Soweto Gospel Choir brings energy, song to IU Auditorium</h4>
-    </div>
-  </div>
-
-    <div class="row filler quarter small"></div>
-
-  <div class="row">
-    <div class="three columns">
-      <div class="ad">
-      </div>
-    </div>
+<section id="about" data-type="background" data-speed="20">
+<article>
+		<h1 class="unsettled">THE UNSETTLED</h1>
+	</article></section>
+<section id="dog" data-type="background" data-speed="40"></section>
+<section id="home" data-type="background" data-speed="80">
+	
+</section>
 
 
-    <div class="six columns">
-      <h4 class="secondary"><span class="tag">Opinion</span>Mexico moves on marijuana</h4>
-      <p class="secondaryp">There’s an old saying south of the border that describes the relationship between the United States and Mexico. <span class="readmore">Read more</span>
+<div class="container-fluid">
+	<a name="intro"></a>
 
-      <h4 class="secondary"><span class="tag">Weekend</span>Crisis 'A'verted</h4>
-      <p class="secondaryp">If international politics piques your interest or you just love seeing Sandra Bullock play women in positions of power, then I highly recommend going to see “Our Brand is Crisis.” <span class="readmore">Read more</span>
+	<div class="row intro"> <!-- intro row -->
+	  	<div class="col-md-offset-1 col-md-8 subhead">
+	  		<h2>Forced to flee Syria and start over, a family adjusts to a state that doesn't want them </h2>
+	  	</div>
+		
+		<div class="col-xs-12 byline-mobile">
+			<h6><span class="by">Story by Alden Woods</span> <br> aldwoods@indiana.edu | <a href="https://twitter.com/ac_woods" target="_blank">@ac_woods</a></h6>
+				<h6><span class="by">Photos by Ike Hajinazarian </span><br> ikehajinaz@indiana.edu | <a href="https://twitter.com/_IkeHaji" target="_blank">@ac_woods</a></h6>
+				<h6><span class="by">Graphics and development by Anna Boone</span> <br> anmboone@indiana.edu | <a href="https://twitter.com/annamarieboone" target="_blank">@annamarieboone</a></h6>
+	  		
+	  		<!-- Special thanks to Kathrine Schulze @kas_schulze for developing the orginial build out with me for Megan Jula's story Waiting for Help. Much of this template is adapted from our work last semested, and I couldn't of done it without her.-->
+	  	</div>
+	</div> <!-- end of intro row -->
 
-      <h4 class="secondary"><span class="tag">Arts</span>5 guidelines to studying abroad</h4>
-      <p class="secondaryp">Seville finally feels like home, and, just as life here has hit a high, it’s already time to think about the trip home. <span class="readmore">Read more</span>
-    </div>
 
-    <div class="three columns">
-      <div class="ad">
-      </div>
-    </div>
-  </div>
+	<div class="row article led">
+		<div class="col-md-offset-1 col-md-6 body-copy">
+			<p><span class="dropcap">I</span>NDIANAPOLIS - The kids felt it first. The day the governor declared refugees like them unwelcome, fear pulsed through their schools. </p>
 
-  <div class="row">
-    <div class="four columns">
-      <h4 class="secondary"><span class="tag">Tweets @idsnews</span></h4>
-      <a class="twitter-timeline" href="https://twitter.com/idsnews" data-widget-id="664976995860750336"></a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+<p>Rama, the 15-year-old, heard it in her classmates&rsquo; voices when they blamed Muslims, saw it when they pointed at her headscarf. Rakan, her 13-year-old brother, was caught off guard when a group of boys approached him in the hallway.</p>
 
-    <div class="four columns">
-      <h4 class="secondary"><span class="tag">Special publications</span></h4>
-      <img src="img/homecoming.png" class="todayspaper"/>
-    </div>
+<p>&ldquo;Are you in ISIS?&rdquo; they asked him. He shook his head and slinked away. </p>
 
-    <div class="four columns">
-       <h4 class="secondary"><span class="tag">Most commented stories</span></h4>
-       <p class="secondaryp">LETTER: The U.S. should repeal 
-        the Second Amendment <span class="readmore black">82 comments</span>
-        <p class="secondaryp">Friends, mother of Triceten Bickford say attack was uncharacteristic <span class="readmore black">24 comments</span>
-          <p class="secondaryp">COLUMN: Feminism in its formation | Indiana Daily Student <span class="readmore black">8 comments</span>
-    </div>
-  </div>
+<p>Like the rest of their family, the two teenagers knew about the terror in Paris the previous Friday, the bombings and gunfire that left more than 100 people dead. They knew that ISIS had claimed responsibility for the attacks and that a fake Syrian passport had been left at the scene. But news of Gov. Mike Pence&rsquo;s announcement the following Monday hadn&rsquo;t reached them. </p>
 
-  <div class="row filler"></div>
+<p>When the Batman family heard that Pence was blocking Syrian refugees from entering Indiana, their small apartment fell silent. </p>
 
-  <div class="row">
-    <div class="twelve columns">
-      
-    </div>
-    </div>
+<p>Ten seconds passed. Fifteen, then twenty. Marwan, the father, was the first to speak. </p>
 
-      <div class="twelve columns red-footer show-desktop">
-        <span class="footer">Contact us</span>       
-        <span class="footer">About the IDS</span>       
-        <span class="footer">Today's Ads</span>       
-        <span class="footer">Inside Magazine</span>       
-        <span class="footer">Arbutus</span>       
-        <span class="footer">New Student Orienteer</span>       
-      
-    </div>
+<p>&ldquo;Call?&rdquo; he asked in his broken English, holding up a cell phone. &ldquo;Call?&rdquo;</p>
 
-   </div>
-  <script src="js/jquery.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/showHide.js"></script>
-</body> 
+<p>Marwan didn&rsquo;t know the governor&rsquo;s name and didn't understand that getting him on the phone would be almost impossible. Over the rims of his glasses, he looked over at his wife, at Rama and Rakan, at his two youngest daughters chasing each other up and down the staircase.</p>
+
+<p>If Marwan could just talk to the governor, maybe he could tell him his family's story. Maybe he could help the man understand.</p>
+
+<p class="seperate">***</p>
+</div>
+
+		<div class="col-md-4 sidebar">
+			<div class="byline">
+				<h6><span class="by">Story by Alden Woods</span> <br> aldwoods@indiana.edu | <a href="https://twitter.com/ac_woods" target="_blank">@ac_woods</a></h6>
+				<h6><span class="by">Photos by Ike Hajinazarian </span><br> ikehajinaz@indiana.edu | <a href="https://twitter.com/_IkeHaji" target="_blank">@ac_woods</a></h6>
+				<h6><span class="by">Graphics and development by Anna Boone</span> <br> anmboone@indiana.edu | <a href="https://twitter.com/annamarieboone" target="_blank">@annamarieboone</a></h6>
+			</div>
+		</div>
+
+		<div class="row article led">
+			<div class="col-md-offset-1 col-md-6 body-copy">
+
+<p><span class="dropcap">T</span>he Batman family is among a handful of Syrian families who have fled the civil war in their country and settled in Indiana, joining about two thousand Syrian refugees living across the United States. Since the terrorist attacks in Paris, they have been swept up in a national wave of paranoia and hatred directed against Muslims.</p>
+
+<p>In Chicago, two men were prevented from boarding a plane after they were overheard speaking Arabic. Human feces and pages ripped from a Koran were thrown at the door of a Texas mosque. A few hours drive from that mosque, protestors outside an Islamic center carried picket signs and 12-gauge shotguns.</p>
+
+<p>An Indianapolis volunteer told the city&rsquo;s small community of Syrians to stay in their homes. &ldquo;People are angry,&rdquo; she texted them. &ldquo;I don&rsquo;t know what&rsquo;s going to happen.&rdquo;  Citing concerns of terrorism, more than half the country&rsquo;s governors announced plans to oppose or block Syrian refugees from settling in their states. Pence was one of the first. </p>
+
+<p>&ldquo;Indiana has a long tradition of opening our arms and homes to refugees from around the world,&quot; Pence said in a statement. &quot;But as governor, my first responsibility is to ensure the safety and security of all Hoosiers.&rdquo; </p>
+
+<p>When Pence made his announcement, a new family of Syrian refugees was scheduled to fly into Indianapolis the next day. They never made it. The couple and their small child were rerouted to Connecticut, where the governor publicly welcomed them to the state and mocked Pence&rsquo;s decision.</p>
+
+<p>&ldquo;This is the same guy who signed a homophobic bill in the spring, surrounded by homophobes,&rdquo; Gov. Dannel Malloy said. &ldquo;So I&rsquo;m not surprised by anything the governor does.&rdquo;</p>
+
+<p>As masses of Syrians huddled outside European borders and in cramped refugee camps in Turkey and Iran, they became the central figures in a debate over the soul of America. Would a nation founded by refugees now turn them away?</p>
+
+<p>Politicians labeled them as terrorists-in-wait, saying the United States&rsquo; intensive screening process couldn&rsquo;t catch everything. </p>
+
+<p>&ldquo;Highly concerning,&rdquo; said Massachusetts Gov. Charlie Baker.</p>
+
+<p>&ldquo;It is clear that the influx of Syrian refugees poses a threat,&rdquo; said Wisconsin Gov. Scott Walker. </p>
+
+<p>&ldquo;I will do everything humanly possible to stop any plans&#8230; to put Syrian refugees in Mississippi,&rdquo; said Mississippi Gov. Phil Bryant.</p>
+
+<p>Donald Trump suggested the refugees could be a &ldquo;Trojan horse&rdquo; for terrorism, and promised to send them back if he is elected. Jeb Bush and Ted Cruz offered plans to accept only Christian refugees. </p>
+
+<p>President Obama condemned the blockade, calling it &ldquo;shameful&rdquo; and &ldquo;not American.&rdquo; He declared the United States would continue to accept refugees. </p>
+
+<p>As America argued, the flood of people rushing out of Syria continued. More than nine million Syrians have been forced out of their homes in the last five years as casualties of an ever-escalating civil war. Of those, more than 4 million have fled the country.</p>
+
+<p>This summer, President Obama pledged to take in at least 10,000 Syrian refugees over the next year. The country has made little progress on that plan before it became America&rsquo;s most hotly debated policy. </p>
+
+<p>The United Nations has recommended more than 22,000 Syrian refugees for resettlement in the United States since 2013. After a screening process that can take as long as two years, about 2,000 have been accepted. </p>
+
+<p>The Batmans were among the first Syrian refugees to settle in Indiana. Together, they are navigating a world they can&rsquo;t understand: learning English, starting school and paying bills while the country decides what to do with them. </p>
+
+<p>When they arrived, everything was new. Rakan knew his last name &ndash; Batman, like the superhero &ndash; was popular in America, but not much else. </p>
+
+<p>A year later, the family&rsquo;s future is laid out in a series of milestones: apply for green cards in November, college for Rama and Rakan, citizenship in five years, get the rest of their family out of Syria. Go back only after the war. </p>
+
+<p>After the country&rsquo;s leaders turned their back on refugees like them, they felt their future here slipping away. </p>
+</div>
+
+
+
+
+		</div>
+
+		<div class="col-md-offset-1 col-md-6 body-copy">
+
+			<a name="fonts"></a>
+
+		
+			<h3>Fonts</h3>
+			<p>If you want a special font for headlines, let us known. If not stick with these fonts below.</p>
+				<h1>This is h1, use it for headlines</h1>
+				<h2>This is h2, use it for subheads</h2>
+				<h3>This is h3, use it for section heads and pulled quotes</h3>
+				<h4>This is h4, use it for graphic subheads or if needed section subheads</h4>
+				<h5>This is h5, use it as graphic body copy</h5>
+				<h6>This is h6, use it for bylines</h6>
+				<p>This is p, use it for paragraphs</p>
+				<figure><figcaption>This is a figcaption, used to caption figures</figcaption>	</figure>
+				<ul>
+					<li>This is a list</li>
+					<li>These are great for ASF </li>
+				</ul>
+		<hr>
+		</div>
+			
+		<div class="col-md-offset-1 col-md-6 body-copy">
+			<a name="categories"></a>
+
+
+			<h3>Media Categories</h3>
+			<p>There are two categories your media falls into. Figure media requires a figure tag around it and a figcaption to explain what it is. HTML media doesn't require a figure tag although it can be place in one if you want. HTML media is place in custom divs you or I have made. In general, html content scales size easier, but figure content is quicker to setup.</p>
+
+			<h4>Figure media includes</h4>
+			<ul>
+				<li>images</li>
+				<li>videos</li>
+				<li>audio</li>
+				<li>embedded content</li>
+			</ul>
+
+			<h4>HTML media includes</h4>
+			<ul>
+				<li>body copy</li>
+				<li>pulled quotes</li>
+				<li>more info box</li>
+				<li>related content box</li>
+				<li>slideshows</li>
+				<li>graphics</li>
+				<li>stylized text</li>
+				<li>maps</li>
+				<li>timelines</li>
+				<li>soundcite</li>
+				<li>storymaps</li>
+				<li>anything else you request</li>
+			</ul>
+			
+<section id="about" data-type="backgroud" data-speed="10"></section>
+
+			<a name="placement"></a>
+			<h3>Media Placement</h3>
+				<p>The grid of this article on a medium or larger screen is one body-copy column that is 7 columns wide with one column offset to the left, and one sidebar column that is 4 columns wide. For mobile, everything is the full 12 colunmns wide. These columns live in a row which can be used to organize sections of your code. You can copy in as many columns into a row as you want, but once the total width of the columns equals 12, any other columns will float underneath. Since everything floats to the top, the easiest way to lineup the sidebar with the body-copy is to start a body-copy column on the paragraph that you want to line up the sidebar with. Then include the sidebar underneath and the sidebar will float and line up with the top of the first paragraph or first media in the body-copy column. If you want to read more about the grid structure, read about <a href="http://getbootstrap.com/2.3.2/scaffolding.html">Bootstrap scaffolding</a>.</p>
+		
+				<p>Any media can be placed in one of three areas - inline, sidebar on break. Inline is in the body copy column, sidebar is obviously in the sidebar and break breaks from the row and gives you access to make something the full screen width. You can technically add more options by making divs in the columns a different percentage width (width: 50%, 150%, etc.) if you need a work around. Try to avoid doing this if you can, but often when making graphics something doesn't line up quite right and you need a little more freedom. Stay away from absolute values (width: 50px) as they are more buggy when coding a responsive design unless something is small like styling the twitter button to width: 5px, since this doesn't need to change when loaded on a mobile device.</p>
+
+				<p>If you want to animate your media, look at <a href="https://daneden.github.io/animate.css/">animate.css</a> and <a href="http://mynameismatthieu.com/WOW/">wow.js</a> to reveal those animations when scrolled over. Look at my story about <a href="specials.idsnews.com/yaolin">Yaolin Wang's murder</a> or <a href="https://github.com/IU-Student-Media/specials/tree/master/yaolin">check out the code</a> to see a working example of both.</p>
+		</div>
+
+	
+					
+			
+			<div class="col-md-offset-1 col-md-6 body-copy">
+				<h4> Inline Exmaple</h4>
+					<figure>
+						<img src="img/img.sm.jpg" alt="small example sidebar image">
+						<figcaption>This is an inline example.</figcaption>
+					</figure>
+
+					<figure class="wow fadeIn"> 
+							<img src="img/img.sm.jpg" alt="small example sidebar image">
+							<figcaption>This is an inline example that fades in with when scrolled over. The class fadeIn comes from animate.css and the class wow comes from wow.js.</figcaption>
+					</figure>
+					
+					<!-- This is inline media with a class of inline-narrow  -->
+					<figure class="inline-narrow"> 
+							<img src="img/img.sm.jpg" alt="small example sidebar image">
+							<figcaption>This is an inline example with a custom class of inline-narrow that makes it 50% width of the image. You can add more classes in your style.css for more fitting widths.</figcaption>
+					</figure>
+
+				
+			</div><!-- end of body-copy column -->
+
+			<div class="col-md-4 sidebar">
+				<h4> Sidebar Exmaple</h4>
+					<figure>
+						<img src="img/img.sm.jpg" alt="small example sidebar image">
+						<figcaption>This is a sidebar example.</figcaption>
+					</figure>
+			</div> <!-- end of sidebar -->
+	</div><!-- end of article row -->
+</div> <!-- end of container fluid -->
+
+<div class="break">
+	<h4>Break Example</h4>
+	<figure>
+		<img src="img/img.lg.jpg">
+		<figcaption>
+		This is a caption for break media. Break media steps outside of the container-fluid so it isn't in the grid structure. Instead, it is 100% of the screen width by default.
+		</figcaption>
+	</figure>
+</div> <!-- end of break div -->
+	
+<div class="container-fluid"> <!-- If you break from the container, you need start the div again -->
+	<div class="row article"> <!-- Same goes for the article row -->
+		<div class="col-md-offset-1 col-md-6 body-copy"> 
+			<a name="figure"></a>
+			<h3>Figure Media</h3>
+				<p> Figure media lives in figure tags. Suprsing I know. Figures are boxes that keep your media and caption grouped together. It also provides a margin around them to give it some space.</p>
+
+			<a name="images"></a>
+			<h3>Images</h3>
+				<p>Save images as either jpg or gifs. Follow the photo optimization Bonnie teaches you in class.</p>
+				
+				<figure>
+					<img src="img/img.sm.jpg" alt="small example image">
+					<figcaption>This is an picture </figcaption>
+				</figure>
+
+				<figure>
+					<img src="img/example.gif" alt="small example image">
+					<figcaption>This is an gif. It is low resolution so it is a little  blurry. If you save a larger file there should be more fidelity.</figcaption>
+				</figure>
+
+				
+				
+						<li>spotify</li>
+						<li>scribd</li>
+						<li> <a href="https://soundcite.knightlab.com/">knightlab tools</a>
+							<ul>
+								<li> <a href="https://soundcite.knightlab.com/">soundci<h5>Features to Change</h5>
+				<ul>
+					<li>Consistent optimization protocol</li>
+				</ul>
+			<hr>
+
+			<a name="video"></a>
+			<h3>Video</h3>
+				<p>Save as mp4</p>
+
+				<figure>
+					<video width="100%" height="auto" autoplay>
+					  <source src="img/example.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+					<figcaption>This is a video's caption</figcaption>
+				</figure>
+
+				<figure>
+					<video width="100%" height="auto" controls>
+					  <source src="img/example.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+					<figcaption>This is a video's caption for a video with controls</figcaption>
+				</figure>
+
+			
+		</div> <!-- end of body copy -->
+
+		
+
+		<div class="col-md-offset-1 col-md-6 body-copy">
+		<a name="quote"></a>
+			<h3>Pulled Quote</h3>
+		</div>
+		<!-- the pulledquote doesn't work well if you lineup with head tags due to the margin placed on the,. What I did here was end the body-copy column after the h3, and start another body-copy tag directly under it. Then I put a sidebar following the second body-copy tag so it floats up to lineup with the paragraph.  -->
+		<div class="col-md-offset-1 col-md-6 body-copy">
+				<p>Pulled quotes are a prewritten style that lives in the ids.css file. I tend to put them in the sidebar, but that is just my styles so feel free to put htme anywhere. I also like putting a fadein animation which triggers on scrollover so they appear as the reader goes through the article.</p>
+
+			<div class="pulledquote">
+				<h3>"This is my pulled quote."Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam.</h3>
+				<p>James Benedict</p>
+			</div> <!-- end of pulled quote -->
+
+			<h5>Features to Change</h5>
+				<ul>
+					<li>make sidebar pulledquote lineup with h1-6 tags</li>
+				</ul>
+			<hr>
+		</div> <!-- end of body copy -->
+
+		<div class="col-md-4 sidebar">
+			<div class="pulledquote">
+				<h3>"This is my pulled quote."Duis ultricies ex id quam laoreet tincidunt. Mauris scelerisque tortor at ligula scelerisque, quis scelerisque enim condimentum. In aliquam.</h3>
+				<p>James Benedict</p>
+			</div> <!-- end of pulled quote -->
+		</div><!-- End of sidebar -->
+
+		<div class="col-md-offset-1 col-md-6 body-copy">
+			<a name="info"></a>
+			<h3>More info</h3>
+				<p>This is a pretty bare bones features. It really should only be used in the sidebar.</p>
+		</div>
+
+		<div class="col-md-4 sidebar-info">
+			<h4>More Info</h4>
+			<h5>This is additional info for ya. Use this class for text heavy ASFs.</h5>
+		</div>
+
+
+
+		<div class="col-md-offset-1 col-md-6 body-copy">
+			<a name="related"></a>
+			<h3>Related Content</h3>
+				<p>This feature also isn't finished yet. It is going to be a stylized teaser box to other stories related to yours. Also if your story contiunes to have updates after publication, we can link in new articles to this build out via this. There will be a text only version as well as one that has both text and a teaser image. It will be able to be placed in either the sidebar or inline.</p>
+
+				<figure class="related">
+					<img src="img/img.sm.jpg" alt="small image">
+				</figure>
+				
+				<h4>Related Content</h4>
+
+		</div> <!-- end of body copy column -->
+
+		<div class="col-md-4 sidebar-related">
+			<h4>Related Content</h4>
+			<h5></h5>
+		</div>
+
+	</div><!-- end of article row -->
+	
+	
+	<div class="row article">
+		<div class="col-md-offset-1 col-md-6 body-copy">
+		<a name="slideshow"></a>
+			<h3>Slideshows</h3>
+				<p>I'm using Bootstrap's <a href="http://getbootstrap.com/javascript/#carousel">carousel </a>feature for slideshows.</p>
+				<!-- make sure to change the generic class if you have multiple slide shows. -->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators, the count starts at 0 so the first item is data-slide-to="0" -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <!-- add more list items for each slide used in the slideshow.  -->
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="img/header.lg.jpg" alt="...">
+			      <div class="carousel-caption">
+			       <figcaption>This is a caption</figcaption>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="img/header.sm.jpg" alt="...">
+			      <div class="carousel-caption">
+			        <figcaption>This is a caption</figcaption>
+			      </div>
+			    </div>
+			    
+			    
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			
+			<h5>Features to Change</h5>
+				<ul>
+					<li>restyle captions so that they look like a figcaption. For now, place captions as shown.</li>
+				</ul>
+		<hr>
+		</div> <!-- end of body copy -->
+
+</div> <!-- end of container fluid -->
+
+<footer>
+	<p>© James Benedict, 2014-2015.</p>
+</footer>
+
+	<!-- scripts -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/highcharts.src.js"></script>
+
+	<script src="js/chart1.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+	<script src="js/wow.js"></script>
+
+        <script> new WOW().init(); </script>
+		
+
+	<script src="js/script.js"></script>
+	<script src="js/map.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/parallax.min.js"></script>
+
+</body>
 </html>
