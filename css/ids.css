@@ -295,7 +295,7 @@ hr {
 }
 
 #home {
-	background: url(/img/dogvert.jpg) 100% 0 repeat fixed;
+	background: url(img/dogvert.jpg) 100% 0 repeat fixed;
 	min-height:1000px;
 	 -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -304,7 +304,7 @@ hr {
 }
 
 #about {
-	background: url(/img/dog1vert.jpg) 50% 0 repeat fixed;
+	background: url(img/dog1vert.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -313,7 +313,7 @@ hr {
 }
 
 #dog {
-	background: url(/img/dog2vert.jpg) 50% 0 repeat fixed;
+	background: url(img/dog2vert.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
  	 -moz-background-size: cover;
@@ -373,7 +373,7 @@ hr {
 	}
 	
 #home {
-	background: url(/img/dog.jpg) 100% 0 repeat fixed;
+	background: url(img/dog.jpg) 100% 0 repeat fixed;
 	min-height:1000px;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -382,7 +382,7 @@ hr {
 }
 
 #about {
-	background: url(/img/dog1.jpg) 50% 0 repeat fixed;
+	background: url(img/dog1.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -391,7 +391,7 @@ hr {
 }
 
 #dog {
-	background: url(/img/dog2.jpg) 50% 0 repeat fixed;
+	background: url(img/dog2.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
