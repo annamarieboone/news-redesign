@@ -118,10 +118,10 @@ Assume anything not under a media query is for .col-xs */
 
 	figcaption{
 		font-weight: 300;
-		font-size: .8em;
+		font-size: 1em;
 		line-height: 1.4em;
 		margin-top: .5em;
-		margin-bottom: 1.5em;
+		margin-bottom: 3em;
 	}
 
 
