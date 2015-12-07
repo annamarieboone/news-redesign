@@ -47,6 +47,13 @@ Assume anything not under a media query is for .col-xs */
 		font-size: 20px;
 	}
 
+	.homs {
+		color: #CC0000;
+		font-weight: bold;
+		font-family: 'Lato', sans-serif;
+	}
+	
+
 	/*use h1 for headlines*/
 	h1{
 		font-family: 'Roboto Slab', serif;
