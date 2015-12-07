@@ -406,7 +406,7 @@ hr {
 	}
 	
 #home {
-	background: url(/img/fullfamily.jpg) 100% 0 repeat fixed;
+	background: url(/news-redesign/img/fullfamily.jpg) 100% 0 repeat fixed;
 	min-height:1000px;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -415,7 +415,7 @@ hr {
 }
 
 #about {
-	background: url(/img/marwanh.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/marwanh.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -424,7 +424,7 @@ hr {
 }
 
 #dog {
-	background: url(/img/rakanh.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/rakanh.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -433,7 +433,7 @@ hr {
 }
 
 #rimis {
-	background: url(/img/rimish.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/rimish.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -442,7 +442,7 @@ hr {
 }
 
 #marwanw {
-	background: url(/img/work4.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/work4.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -451,7 +451,7 @@ hr {
 }
 
 #lona {
-	background: url(/img/school1.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/school1.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -460,7 +460,25 @@ hr {
 }
 
 #papers {
-	background: url(/img/bagofpapers.jpg) 50% 0 repeat fixed;
+	background: url(/news-redesign/img/bagofpapers.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#postoffice {
+	background: url(/news-redesign/img/postoffice.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#car {
+	background: url(/news-redesign/img/car.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
