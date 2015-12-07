@@ -50,7 +50,7 @@ Assume anything not under a media query is for .col-xs */
 	/*use h1 for headlines*/
 	h1{
 		font-family: 'Roboto Slab', serif;
-		font-size: 4em;
+		font-size: 3.5em;
 		line-height: 1.2;
 		letter-spacing: .05em;
 		font-weight: 300;
