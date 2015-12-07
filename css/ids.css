@@ -154,7 +154,7 @@ Assume anything not under a media query is for .col-xs */
 	}
 
 	.leftmarg {
-		margin:0px;
+		margin:0;
 		padding: 20px;
 	}
 
