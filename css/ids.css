@@ -61,12 +61,12 @@ Assume anything not under a media query is for .col-xs */
 
 	/*h2 is the italicized subhead.*/
 	h2{
-		font-size: 2em;
+		font-size: 1.8em;
 		line-height: 1.3em;
 /*		color: #939393;
-*/		margin-bottom: 2em;
+*/		margin-bottom: 1.8em;
 		font-weight: 300;
-		margin-top: 2em;
+		margin-top: 1.8em;
 	}
 	
 	h3{
@@ -400,13 +400,23 @@ hr {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width:550px) { 
+
+	h2{
+		font-size: 2em;
+		line-height: 1.3em;
+/*		color: #939393;
+*/		margin-bottom: 2em;
+		font-weight: 300;
+		margin-top: 2em;
+	}
+
 /*Navbar*/
 	.navbar-headline-mobile {
 		display: none;
 	}
 	
 #home {
-	background: url(/news-redesign/img/fullfamily.jpg) 100% 0 repeat fixed;
+	background: url(/news-redesign/img/fullfamily.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
