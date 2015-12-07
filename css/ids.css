@@ -15,6 +15,38 @@ Assume anything not under a media query is for .col-xs */
 
 	}
 
+	.graphic1 {
+		font-weight: 300;
+		text-align: left;
+		line-height: 1.8em;
+		margin-bottom: 3em;
+	}
+
+	.four {
+		font-weight: 700;
+		color: #BFBFBF;
+		font-size: 20px;
+	}
+
+	.twentytwo {
+		font-weight: 700;
+		color: #808080;
+		font-size: 20px;
+
+	}
+
+	.two {
+		font-weight: 700;
+		color: #CC0000;
+		font-size: 20px;
+	}
+
+	.thirty {
+		font-weight: 700;
+		color: #000000;
+		font-size: 20px;
+	}
+
 	/*use h1 for headlines*/
 	h1{
 		font-family: 'Roboto Slab', serif;
@@ -132,15 +164,25 @@ Assume anything not under a media query is for .col-xs */
 		padding: 0;
 		margin: 0;
 		margin-top: .5em;
+		font-family: 'Lato';
+		font-weight: 900;
+	}
+
+	.pulledquote h3{
+		padding: 0;
+		margin: 0;
+		margin-top: .5em;
+		font-family: 'Lato';
+		font-weight: 300;
 	}
 
 
 	.pulledquote{
-		border-left: solid 10px;
 		padding-left: 20px;
 		margin-top: 1.5em;
 		margin-bottom: 1.5em;
 		width: 75%;
+		
 	}
 
 	.sidebar > .pulledquote{
@@ -291,11 +333,8 @@ hr {
 /*sections for parallax scrolling*/
 
 .unsettled {
-	height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
+	color: black;
+	left: 20px;
 }
 
 .show-desktop {
@@ -345,7 +384,7 @@ hr {
 
 
 .seperate {
-	text-align: center;
+	text-align: left;
 	letter-spacing: 10px;
 }
 
@@ -357,14 +396,14 @@ hr {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width:768px) { 
+@media (min-width:550px) { 
 /*Navbar*/
 	.navbar-headline-mobile {
 		display: none;
 	}
 	
 #home {
-	background: url(/news-redesign/img/dog.jpg) 100% 0 repeat fixed;
+	background: url(/img/fullfamily.jpg) 100% 0 repeat fixed;
 	min-height:1000px;
 	 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -373,7 +412,7 @@ hr {
 }
 
 #about {
-	background: url(/news-redesign/img/dog1.jpg) 50% 0 repeat fixed;
+	background: url(/img/marwanh.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -382,12 +421,30 @@ hr {
 }
 
 #dog {
-	background: url(/news-redesign/img/dog2.jpg) 50% 0 repeat fixed;
+	background: url(/img/rakanh.jpg) 50% 0 repeat fixed;
 	min-height:1000px;
 	  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#rimis {
+	background: url(/img/rimish.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.unsettled {
+	height: 458px; 
+  position: absolute; 
+  text-align: left; 
+  top: 350px; 
+  width: 100%; 
+  color: black;
 }
 
 
@@ -415,6 +472,15 @@ hr {
 		margin-top: 0em;
 		padding-top: 0em;
 	}
+
+	.unsettled {
+	height: 458px; 
+  position: absolute; 
+  text-align: left; 
+  top: 350px; 
+  width: 100%; 
+  color: white;
+}
 
 /*article*/
 
@@ -450,8 +516,9 @@ hr {
  .unsettled {
 	height: 458px; 
   position: absolute; 
-  text-align: center; 
-  top: 150px; 
+  text-align: left; 
+  top: 50px; 
+  left: 50px;
   width: 100%; 
   font-size: 5em;
 }
@@ -459,6 +526,31 @@ hr {
 .show-mobile {
 	display: none;
 }
+
+.four {
+		font-weight: 700;
+		color: #BFBFBF;
+		font-size: 22px;
+	}
+
+	.twentytwo {
+		font-weight: 700;
+		color: #808080;
+		font-size: 22px;
+
+	}
+
+	.two {
+		font-weight: 700;
+		color: #CC0000;
+		font-size: 22px;
+	}
+
+	.thirty {
+		font-weight: 700;
+		color: #000000;
+		font-size: 22px;
+	}
 
 }
 
