@@ -441,6 +441,33 @@ hr {
   background-size: cover;
 }
 
+#marwanw {
+	background: url(/img/work4.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lona {
+	background: url(/img/school1.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#papers {
+	background: url(/img/bagofpapers.jpg) 50% 0 repeat fixed;
+	min-height:1000px;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .unsettled {
 	height: 458px; 
   position: absolute; 
@@ -480,9 +507,10 @@ hr {
 	height: 458px; 
   position: absolute; 
   text-align: left; 
-  top: 50px; 
+  top: 5px; 
   width: 100%; 
   color: white;
+  font-size: 6em;
 }
 
 /*article*/
