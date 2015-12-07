@@ -56,6 +56,7 @@ Assume anything not under a media query is for .col-xs */
 		font-weight: 300;
 		margin-bottom: 0em;
 		margin-top: 1em;
+		margin-left: 100px;
 	}
 
 	/*h2 is the italicized subhead.*/
@@ -145,6 +146,16 @@ Assume anything not under a media query is for .col-xs */
 
 	.nomarg {
 		margin: 0em;
+	}
+
+	.leftmarg {
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+
+	.topmarg {
+		margin-top: 30px;
+		margin-bottom: 0px;
 	}
 
 	figure > img{
@@ -345,14 +356,6 @@ hr {
 	display: inline;
 }
 
-.breakmobile {
-	position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-
 
 /*contributors*/
 	.contributors{
@@ -477,7 +480,7 @@ hr {
 	height: 458px; 
   position: absolute; 
   text-align: left; 
-  top: 350px; 
+  top: 50px; 
   width: 100%; 
   color: white;
 }
@@ -512,16 +515,6 @@ hr {
 		visibility: hidden;
 	}
 
-
- .unsettled {
-	height: 458px; 
-  position: absolute; 
-  text-align: left; 
-  top: 50px; 
-  left: 50px;
-  width: 100%; 
-  font-size: 5em;
-}
 
 .show-mobile {
 	display: none;
