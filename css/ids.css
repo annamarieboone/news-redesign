@@ -148,14 +148,14 @@ Assume anything not under a media query is for .col-xs */
 		margin: 0em;
 	}
 
-	.leftmarg {
-		margin-left: 20px;
-		margin-top: 0px;
+	.topmarg {
+		margin: 0px;
+		margin-top: 30px;
 	}
 
-	.topmarg {
-		margin-top: 30px;
-		margin-bottom: 0px;
+	.leftmarg {
+		margin:0px;
+		padding: 20px;
 	}
 
 	figure > img{
@@ -353,7 +353,7 @@ hr {
 }
 
 .show-mobile {
-	display: inline;
+	display: block;
 }
 
 
