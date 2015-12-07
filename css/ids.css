@@ -109,11 +109,15 @@ Assume anything not under a media query is for .col-xs */
 		width: 100%;
 		margin-top: 0em;
 		margin-bottom: 1.5em;
+	}
 
+	.nomarg {
+		margin: 0em;
 	}
 
 	figure > img{
 		width: 100%;
+		margin-bottom: 0em;
 	}
 
 	figure > em {
@@ -294,34 +298,21 @@ hr {
   width: 100%; 
 }
 
-#home {
-	background: url(/news-redesign/img/dogvert.jpg) 100% 0 repeat fixed;
-	min-height:1000px;
-	 -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+.show-desktop {
+	display: none;
 }
 
-#about {
-	background: url(/news-redesign/img/dog1vert.jpg) 50% 0 repeat fixed;
-	min-height:1000px;
-	  -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+.show-mobile {
+	display: inline;
 }
 
-#dog {
-	background: url(/news-redesign/img/dog2vert.jpg) 50% 0 repeat fixed;
-	min-height:1000px;
-	  -webkit-background-size: cover;
- 	 -moz-background-size: cover;
-  	-o-background-size: cover;
- 	 background-size: cover;
+.breakmobile {
+	position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
 }
-
-
 
 
 /*contributors*/
@@ -405,6 +396,10 @@ hr {
 
 /* Medium devices (desktops, 960px and up) */
 @media (min-width:960px) { 
+
+	.show-desktop {
+	display: block;
+}
 /*navbar*/
 	.navbar-headline-mobile {
 		display: none;
@@ -459,6 +454,10 @@ hr {
   top: 150px; 
   width: 100%; 
   font-size: 5em;
+}
+
+.show-mobile {
+	display: none;
 }
 
 }
